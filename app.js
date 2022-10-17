@@ -1,2 +1,5 @@
 console.log("Hello Guys");
-document.querySelector("#intro");
+const intro = document.querySelector("#intro");
+intro.addEventListener("click",event=>{
+  console.log(event)
+})
